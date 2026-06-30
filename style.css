@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+.roboto {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+
+.allheader{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+
+
+}
+
+.center ul{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+}
+
+.center ul li{
+    font-size: 18px;
+}
+
+.dropdown{
+    display: inline-block;
+    position: relative;
+
+}
+
+button{
+    border: 0;
+    background-color: orange;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.drop-content{
+    display: none;
+    position: absolute;
+    right: 0;
+    /* z-index: 1; */
+    margin-top: 3px;
+    background: orange;
+    border: 1px solid #333;
+    padding: 10px;
+    min-width: 200px;
+    
+}
+
+.dropdown:hover .drop-content{
+    display: block;
+}
+
+
+.bgimg{
+    background-image:radial-gradient(circle, rgba(0, 0, 0, 0.387) 23%, rgba(0, 0, 0, 0.73) 100%)  , url('https://images01.nicepage.com/a1389d7bc73adea1e1c1fb7e/015d2351fef654cab7415011/pexels-photo-1438072.jpeg')  ;
+    background-position: center;
+    height: 100vh;
+}
+
+.bgcontent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    color: white;
+    text-align: center;
+}
+
+.bgcontent h1{
+    width: 750px;
+    font-size: 72px;
+    padding-bottom: 42px;
+
+}
+
+.bgcontent h3{
+    font-size: 30px;
+    padding-bottom: 8px;
+}
+
+.bgcontent p{
+    width: 550px;
+    padding-bottom: 10px;
+}
+
+.btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.btns button{
+      border: 0;
+    background-color: orange;
+    color: black;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+
+.btns button:hover{
+    background-color: rgb(243, 211, 151);
+}
+
+.imgtext{
+    display: flex;
+    max-width: 800px;
+    margin: auto;
+    padding-top: 40px;
+    gap: 70px;
+
+}
+
+.imgleft img{
+    width: 400px;
+    height: 453px;
+    object-fit: cover;
+
+
+
+
+}
+
+.text-right h1{
+         font-size: 48px;
+         width: 700px;
+}
+
+.text-right h6{
+    padding-top:24px;
+
+}
+
+.text-right p{
+    padding-top: 20px;
+    width: 400px;
+    line-height: 2;
+}
+
+
+.textall{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+.textall p{
+    line-height: 1.8;
+}
+
+
+
